@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #eeeed5;
+}
+
 .app {
   width: 100vw;
   height: 100vh;
@@ -26,11 +30,18 @@
   justify-content: center;
   align-items: center;
 }
-
+.cell img {
+  width: 48px;
+  height: 48px;
+}
 .black {
-  background-color: #7d945d;
+  background-color: #817716;
 }
 
 .white {
-  background-color: #eeeed5;
+  background-color: #ffd181;
+}
+
+.selected {
+  border: 2px solid brown;
 }
